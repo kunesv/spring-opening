@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>Otvírání studánek</title>
+
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.17.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.17.0/mapbox-gl.css' rel='stylesheet'>
 </head>
 
 <body>
-<div id='map' style='width: 400px; height: 300px;' />
+<div id='map' style='width: 960px; height: 500px;' />
 
 <script>
     mapboxgl.accessToken = 'pk.eyJ1Ijoia3VuZXN2IiwiYSI6ImNpZzc2ejVvMjA1YWp1Zmx2dXh4cXJ3aDUifQ.PZJmmlo0l3WbASj9fu2qnA';
     var map = new mapboxgl.Map({
         container: 'map',
-        style: 'mapbox://styles/kunesv/cinhxfuxb01ond5m3wn677zkw'
+        center: [14.4355, 50.1044],
+        zoom: 13,
+        style: 'mapbox://styles/kunesv/cinhxfuxb01ond5m3wn677zkw',
+
+        dragPan: false
     });
 </script>
 </body>
