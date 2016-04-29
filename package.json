@@ -2,6 +2,9 @@
   "name": "wells-opening",
   "version": "0.1.0",
   "description": "Otvírání Studánek",
+  "scripts": {
+    "start": "node metalsmith.js"
+  },
   "dependencies": {
     "metalsmith": "^2.1.0",
     "metalsmith-serve": "0.0.7",

@@ -1,6 +1,0 @@
-{
-  "plugins": {
-    "metalsmith-serve": {},
-    "metalsmith-watch": {}
-  }
-}
